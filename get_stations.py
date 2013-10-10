@@ -9,8 +9,6 @@ client = MongoClient('localhost', 27017)
 db = client.citibike
 data_file = open('data/stations.json', 'w+')
 
-# data = db.bikes.find_one()
-
 # get all the station ids and go through to start building up the stations json doc
 ids = db.bikes.distinct('id')
 
