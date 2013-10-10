@@ -4,7 +4,6 @@ from pymongo import MongoClient
 from bson.json_util import dumps
 
 client = MongoClient()
-client = MongoClient('localhost', 27017)
 
 db = client.citibike
 data_file = open('data/stations.json', 'w+')
