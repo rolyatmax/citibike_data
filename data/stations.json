@@ -1,0 +1,2066 @@
+[
+ {
+  "latitude": 40.76727216, 
+  "stationName": "W 52 St & 11 Ave", 
+  "longitude": -73.99392888, 
+  "id": 72
+ }, 
+ {
+  "latitude": 40.71911552, 
+  "stationName": "Franklin St & W Broadway", 
+  "longitude": -74.00666661, 
+  "id": 79
+ }, 
+ {
+  "latitude": 40.71117416, 
+  "stationName": "St James Pl & Pearl St", 
+  "longitude": -74.00016545, 
+  "id": 82
+ }, 
+ {
+  "latitude": 40.68382604, 
+  "stationName": "Atlantic Ave & Fort Greene Pl", 
+  "longitude": -73.97632328, 
+  "id": 83
+ }, 
+ {
+  "latitude": 40.74177603, 
+  "stationName": "W 17 St & 8 Ave", 
+  "longitude": -74.00149746, 
+  "id": 116
+ }, 
+ {
+  "latitude": 40.69608941, 
+  "stationName": "Park Ave & St Edwards St", 
+  "longitude": -73.97803415, 
+  "id": 119
+ }, 
+ {
+  "latitude": 40.68676793, 
+  "stationName": "Lexington Ave & Classon Ave", 
+  "longitude": -73.95928168, 
+  "id": 120
+ }, 
+ {
+  "latitude": 40.73172428, 
+  "stationName": "Barrow St & Hudson St", 
+  "longitude": -74.00674436, 
+  "id": 127
+ }, 
+ {
+  "latitude": 40.72710258, 
+  "stationName": "MacDougal St & Prince St", 
+  "longitude": -74.00297088, 
+  "id": 128
+ }, 
+ {
+  "latitude": 40.71425541, 
+  "stationName": "Henry St & Grand St", 
+  "longitude": -73.98130841, 
+  "id": 137
+ }, 
+ {
+  "latitude": 40.69239502, 
+  "stationName": "Clinton St & Joralemon St", 
+  "longitude": -73.99337909, 
+  "id": 143
+ }, 
+ {
+  "latitude": 40.69839895, 
+  "stationName": "Nassau St & Navy St", 
+  "longitude": -73.98068914, 
+  "id": 144
+ }, 
+ {
+  "latitude": 40.71625008, 
+  "stationName": "Hudson St & Reade St", 
+  "longitude": -74.0091059, 
+  "id": 146
+ }, 
+ {
+  "latitude": 40.71542197, 
+  "stationName": "Greenwich St & Warren St", 
+  "longitude": -74.01121978, 
+  "id": 147
+ }, 
+ {
+  "latitude": 40.7208736, 
+  "stationName": "E 2 St & Avenue C", 
+  "longitude": -73.98085795, 
+  "id": 150
+ }, 
+ {
+  "latitude": 40.7218158, 
+  "stationName": "Cleveland Pl & Spring St", 
+  "longitude": -73.99720307, 
+  "id": 151
+ }, 
+ {
+  "latitude": 40.71473993, 
+  "stationName": "Warren St & Church St", 
+  "longitude": -74.00910627, 
+  "id": 152
+ }, 
+ {
+  "latitude": 40.69089272, 
+  "stationName": "Henry St & Atlantic Ave", 
+  "longitude": -73.99612349, 
+  "id": 157
+ }, 
+ {
+  "latitude": 40.72917025, 
+  "stationName": "LaGuardia Pl & W 3 St", 
+  "longitude": -73.99810231, 
+  "id": 161
+ }, 
+ {
+  "latitude": 40.75323098, 
+  "stationName": "E 47 St & 2 Ave", 
+  "longitude": -73.97032517, 
+  "id": 164
+ }, 
+ {
+  "latitude": 40.7489006, 
+  "stationName": "E 39 St & 3 Av", 
+  "longitude": -73.97604882, 
+  "id": 167
+ }, 
+ {
+  "latitude": 40.73971301, 
+  "stationName": "W 18 St & 6 Av", 
+  "longitude": -73.99456405, 
+  "id": 168
+ }, 
+ {
+  "latitude": 40.76064679, 
+  "stationName": "Broadway & W 49 St", 
+  "longitude": -73.98442659, 
+  "id": 173
+ }, 
+ {
+  "latitude": 40.7381765, 
+  "stationName": "E 25 St & 1 Ave", 
+  "longitude": -73.97738662, 
+  "id": 174
+ }, 
+ {
+  "latitude": 40.70905623, 
+  "stationName": "Liberty St & Broadway", 
+  "longitude": -74.01043382, 
+  "id": 195
+ }, 
+ {
+  "latitude": 40.74334935, 
+  "stationName": "W 16 St & The High Line", 
+  "longitude": -74.00681753, 
+  "id": 212
+ }, 
+ {
+  "latitude": 40.70037867, 
+  "stationName": "Columbia Heights & Cranberry St", 
+  "longitude": -73.99548059, 
+  "id": 216
+ }, 
+ {
+  "latitude": 40.70277159, 
+  "stationName": "Old Fulton St", 
+  "longitude": -73.99383605, 
+  "id": 217
+ }, 
+ {
+  "latitude": 40.69028437, 
+  "stationName": "Gallatin Pl & Livingston St", 
+  "longitude": -73.98707105, 
+  "id": 218
+ }, 
+ {
+  "latitude": 40.73781509, 
+  "stationName": "W 13 St & 7 Ave", 
+  "longitude": -73.99994661, 
+  "id": 223
+ }, 
+ {
+  "latitude": 40.71146364, 
+  "stationName": "Spruce St & Nassau St", 
+  "longitude": -74.00552427, 
+  "id": 224
+ }, 
+ {
+  "latitude": 40.74195138, 
+  "stationName": "W 14 St & The High Line", 
+  "longitude": -74.00803013, 
+  "id": 225
+ }, 
+ {
+  "latitude": 40.72743423, 
+  "stationName": "Great Jones St", 
+  "longitude": -73.99379025, 
+  "id": 229
+ }, 
+ {
+  "latitude": 40.69597683, 
+  "stationName": "Cadman Plaza E & Tillary St", 
+  "longitude": -73.99014892, 
+  "id": 232
+ }, 
+ {
+  "latitude": 40.69246277, 
+  "stationName": "Joralemon St & Adams St", 
+  "longitude": -73.98963911, 
+  "id": 233
+ }, 
+ {
+  "latitude": 40.7284186, 
+  "stationName": "St Marks Pl & 2 Ave", 
+  "longitude": -73.98713956, 
+  "id": 236
+ }, 
+ {
+  "latitude": 40.73047309, 
+  "stationName": "E 11 Street & 2 Avenue", 
+  "longitude": -73.98672378, 
+  "id": 237
+ }, 
+ {
+  "latitude": 40.7361967, 
+  "stationName": "Bank St & Washington St", 
+  "longitude": -74.00859207, 
+  "id": 238
+ }, 
+ {
+  "latitude": 40.69196566, 
+  "stationName": "Wiloughby St & Fleet St", 
+  "longitude": -73.9813018, 
+  "id": 239
+ }, 
+ {
+  "latitude": 40.68981035, 
+  "stationName": "DeKalb Ave & S Portland Ave", 
+  "longitude": -73.97493121, 
+  "id": 241
+ }, 
+ {
+  "latitude": 40.69788349, 
+  "stationName": "Flushing Ave & Carlton Ave", 
+  "longitude": -73.97350332, 
+  "id": 242
+ }, 
+ {
+  "latitude": 40.68866384, 
+  "stationName": "Flatbush Ave & Fulton St", 
+  "longitude": -73.98051836, 
+  "id": 243
+ }, 
+ {
+  "latitude": 40.69196035, 
+  "stationName": "Willoughby Ave & Hall St", 
+  "longitude": -73.96536851, 
+  "id": 244
+ }, 
+ {
+  "latitude": 40.69327018, 
+  "stationName": "Myrtle Ave & St Edwards St", 
+  "longitude": -73.97703874, 
+  "id": 245
+ }, 
+ {
+  "latitude": 40.73535398, 
+  "stationName": "Perry St & Bleecker St", 
+  "longitude": -74.00483091, 
+  "id": 247
+ }, 
+ {
+  "latitude": 40.72185379, 
+  "stationName": "Laight St & Hudson St", 
+  "longitude": -74.00771779, 
+  "id": 248
+ }, 
+ {
+  "latitude": 40.71870987, 
+  "stationName": "Harrison St & Hudson St", 
+  "longitude": -74.0090009, 
+  "id": 249
+ }, 
+ {
+  "latitude": 40.72456089, 
+  "stationName": "Lafayette St & Jersey St", 
+  "longitude": -73.99565293, 
+  "id": 250
+ }, 
+ {
+  "latitude": 40.72317958, 
+  "stationName": "Mott St & Prince St", 
+  "longitude": -73.99480012, 
+  "id": 251
+ }, 
+ {
+  "latitude": 40.73226398, 
+  "stationName": "MacDougal St & Washington Sq", 
+  "longitude": -73.99852205, 
+  "id": 252
+ }, 
+ {
+  "latitude": 40.73543934, 
+  "stationName": "W 13 St & 5 Ave", 
+  "longitude": -73.99453948, 
+  "id": 253
+ }, 
+ {
+  "latitude": 40.73532427, 
+  "stationName": "W 11 St & 6 Ave", 
+  "longitude": -73.99800419, 
+  "id": 254
+ }, 
+ {
+  "latitude": 40.71939226, 
+  "stationName": "Lispenard St & Broadway", 
+  "longitude": -74.00247214, 
+  "id": 257
+ }, 
+ {
+  "latitude": 40.68940747, 
+  "stationName": "DeKalb Ave & Vanderbilt Ave", 
+  "longitude": -73.96885458, 
+  "id": 258
+ }, 
+ {
+  "latitude": 40.70122128, 
+  "stationName": "South St & Whitehall St", 
+  "longitude": -74.01234218, 
+  "id": 259
+ }, 
+ {
+  "latitude": 40.70365182, 
+  "stationName": "Broad St & Bridge St", 
+  "longitude": -74.01167797, 
+  "id": 260
+ }, 
+ {
+  "latitude": 40.69474881, 
+  "stationName": "Johnson St & Gold St", 
+  "longitude": -73.98362464, 
+  "id": 261
+ }, 
+ {
+  "latitude": 40.69178232, 
+  "stationName": "Washington Park", 
+  "longitude": -73.97372989, 
+  "id": 262
+ }, 
+ {
+  "latitude": 40.70706456, 
+  "stationName": "Maiden Ln & Pearl St", 
+  "longitude": -74.00731853, 
+  "id": 264
+ }, 
+ {
+  "latitude": 40.72229346, 
+  "stationName": "Stanton St & Chrystie St", 
+  "longitude": -73.99147535, 
+  "id": 265
+ }, 
+ {
+  "latitude": 40.72368361, 
+  "stationName": "Avenue D & E 8 St", 
+  "longitude": -73.97574813, 
+  "id": 266
+ }, 
+ {
+  "latitude": 40.75097711, 
+  "stationName": "Broadway & W 36 St", 
+  "longitude": -73.98765428, 
+  "id": 267
+ }, 
+ {
+  "latitude": 40.71910537, 
+  "stationName": "Howard St & Centre St", 
+  "longitude": -73.99973337, 
+  "id": 268
+ }, 
+ {
+  "latitude": 40.69308257, 
+  "stationName": "Adelphi St & Myrtle Ave", 
+  "longitude": -73.97178913, 
+  "id": 270
+ }, 
+ {
+  "latitude": 40.68528172, 
+  "stationName": "Ashland Pl & Hanson Pl", 
+  "longitude": -73.97805813, 
+  "id": 271
+ }, 
+ {
+  "latitude": 40.68691865, 
+  "stationName": "Lafayette Ave & Fort Greene Pl", 
+  "longitude": -73.976682, 
+  "id": 274
+ }, 
+ {
+  "latitude": 40.68650065, 
+  "stationName": "Washington Ave & Greene Ave", 
+  "longitude": -73.96563307, 
+  "id": 275
+ }, 
+ {
+  "latitude": 40.71748752, 
+  "stationName": "Duane St & Greenwich St", 
+  "longitude": -74.0104554, 
+  "id": 276
+ }, 
+ {
+  "latitude": 40.69766564, 
+  "stationName": "Concord St & Bridge St", 
+  "longitude": -73.98476437, 
+  "id": 278
+ }, 
+ {
+  "latitude": 40.69986937, 
+  "stationName": "Sands St & Gold St", 
+  "longitude": -73.98271933, 
+  "id": 279
+ }, 
+ {
+  "latitude": 40.73331967, 
+  "stationName": "E 10 St & 5 Ave", 
+  "longitude": -73.99510132, 
+  "id": 280
+ }, 
+ {
+  "latitude": 40.70827295, 
+  "stationName": "Kent Ave & S 11 St", 
+  "longitude": -73.96834101, 
+  "id": 282
+ }, 
+ {
+  "latitude": 40.73454567, 
+  "stationName": "Broadway & E 14 St", 
+  "longitude": -73.99074142, 
+  "id": 285
+ }, 
+ {
+  "latitude": 40.6845683, 
+  "stationName": "Monroe St & Classon Ave", 
+  "longitude": -73.95881081, 
+  "id": 289
+ }, 
+ {
+  "latitude": 40.76020258, 
+  "stationName": "2 Ave & E 58 St", 
+  "longitude": -73.96478473, 
+  "id": 290
+ }, 
+ {
+  "latitude": 40.71345221, 
+  "stationName": "Gouverneur St & Madison St", 
+  "longitude": -73.98398567, 
+  "id": 291
+ }, 
+ {
+  "latitude": 40.73028666, 
+  "stationName": "Lafayette St & E 8 St", 
+  "longitude": -73.9907647, 
+  "id": 293
+ }, 
+ {
+  "latitude": 40.73049393, 
+  "stationName": "Washington Square E", 
+  "longitude": -73.9957214, 
+  "id": 294
+ }, 
+ {
+  "latitude": 40.71406667, 
+  "stationName": "Pike St & E Broadway", 
+  "longitude": -73.99293911, 
+  "id": 295
+ }, 
+ {
+  "latitude": 40.71413089, 
+  "stationName": "Division St & Bowery", 
+  "longitude": -73.9970468, 
+  "id": 296
+ }, 
+ {
+  "latitude": 40.68683208, 
+  "stationName": "3 Ave & Flatbush Ave", 
+  "longitude": -73.9796772, 
+  "id": 298
+ }, 
+ {
+  "latitude": 40.7289841, 
+  "stationName": "Cooper Square & E 7 St", 
+  "longitude": -73.99051868, 
+  "id": 300
+ }, 
+ {
+  "latitude": 40.72217444, 
+  "stationName": "E 2 St & Avenue B", 
+  "longitude": -73.98368779, 
+  "id": 301
+ }, 
+ {
+  "latitude": 40.72082834, 
+  "stationName": "Avenue D & E 3 St", 
+  "longitude": -73.97793172, 
+  "id": 302
+ }, 
+ {
+  "latitude": 40.72362738, 
+  "stationName": "Mercer St & Spring St", 
+  "longitude": -73.99949601, 
+  "id": 303
+ }, 
+ {
+  "latitude": 40.70463334, 
+  "stationName": "Broadway & Battery Pl", 
+  "longitude": -74.01361706, 
+  "id": 304
+ }, 
+ {
+  "latitude": 40.76095756, 
+  "stationName": "E 58 St and 3 Ave", 
+  "longitude": -73.96724467, 
+  "id": 305
+ }, 
+ {
+  "latitude": 40.70823502, 
+  "stationName": "Cliff St & Fulton St", 
+  "longitude": -74.00530063, 
+  "id": 306
+ }, 
+ {
+  "latitude": 40.71427487, 
+  "stationName": "Canal St & Rutgers St", 
+  "longitude": -73.98990025, 
+  "id": 307
+ }, 
+ {
+  "latitude": 40.71307916, 
+  "stationName": "St James Pl & Oliver St", 
+  "longitude": -73.99851193, 
+  "id": 308
+ }, 
+ {
+  "latitude": 40.7149787, 
+  "stationName": "Murray St & West St", 
+  "longitude": -74.013012, 
+  "id": 309
+ }, 
+ {
+  "latitude": 40.68926942, 
+  "stationName": "State St & Smith St", 
+  "longitude": -73.98912867, 
+  "id": 310
+ }, 
+ {
+  "latitude": 40.7172274, 
+  "stationName": "Norfolk St & Broome St", 
+  "longitude": -73.98802084, 
+  "id": 311
+ }, 
+ {
+  "latitude": 40.72263214, 
+  "stationName": "Allen St & E Houston St", 
+  "longitude": -73.98887365, 
+  "id": 312
+ }, 
+ {
+  "latitude": 40.69610226, 
+  "stationName": "Washington Ave & Park Ave", 
+  "longitude": -73.96751037, 
+  "id": 313
+ }, 
+ {
+  "latitude": 40.69424674, 
+  "stationName": "Montague St & Clinton St", 
+  "longitude": -73.99215922, 
+  "id": 314
+ }, 
+ {
+  "latitude": 40.70355377, 
+  "stationName": "South St & Gouverneur Ln", 
+  "longitude": -74.00670227, 
+  "id": 315
+ }, 
+ {
+  "latitude": 40.70955958, 
+  "stationName": "Fulton St & William St", 
+  "longitude": -74.00653609, 
+  "id": 316
+ }, 
+ {
+  "latitude": 40.72453734, 
+  "stationName": "E 6 St & Avenue B", 
+  "longitude": -73.98185424, 
+  "id": 317
+ }, 
+ {
+  "latitude": 40.75320159, 
+  "stationName": "E 43 St & Vanderbilt Ave", 
+  "longitude": -73.9779874, 
+  "id": 318
+ }, 
+ {
+  "latitude": 40.71336124, 
+  "stationName": "Park Pl & Church St", 
+  "longitude": -74.00937622, 
+  "id": 319
+ }, 
+ {
+  "latitude": 40.71743998, 
+  "stationName": "Church St & Leonard St", 
+  "longitude": -74.00583475, 
+  "id": 320
+ }, 
+ {
+  "latitude": 40.69991755, 
+  "stationName": "Cadman Plaza E & Red Cross Pl", 
+  "longitude": -73.98971773, 
+  "id": 321
+ }, 
+ {
+  "latitude": 40.696192, 
+  "stationName": "Clinton St. & Tillary St.", 
+  "longitude": -73.991218, 
+  "id": 322
+ }, 
+ {
+  "latitude": 40.69236178, 
+  "stationName": "Lawrence St & Willoughby St", 
+  "longitude": -73.98631746, 
+  "id": 323
+ }, 
+ {
+  "latitude": 40.689888, 
+  "stationName": "DeKalb Ave & Hudson Ave", 
+  "longitude": -73.981013, 
+  "id": 324
+ }, 
+ {
+  "latitude": 40.73624527, 
+  "stationName": "E 19 St & 3 Ave", 
+  "longitude": -73.98473765, 
+  "id": 325
+ }, 
+ {
+  "latitude": 40.72953837, 
+  "stationName": "E 11 St & 1 Ave", 
+  "longitude": -73.98426726, 
+  "id": 326
+ }, 
+ {
+  "latitude": 40.7153379, 
+  "stationName": "Vesey Pl & River Terrace", 
+  "longitude": -74.01658354, 
+  "id": 327
+ }, 
+ {
+  "latitude": 40.72405549, 
+  "stationName": "Watts St & Greenwich St", 
+  "longitude": -74.00965965, 
+  "id": 328
+ }, 
+ {
+  "latitude": 40.72043411, 
+  "stationName": "Greenwich St & N Moore St", 
+  "longitude": -74.01020609, 
+  "id": 329
+ }, 
+ {
+  "latitude": 40.71450451, 
+  "stationName": "Reade St & Broadway", 
+  "longitude": -74.00562789, 
+  "id": 330
+ }, 
+ {
+  "latitude": 40.71173107, 
+  "stationName": "Pike St & Monroe St", 
+  "longitude": -73.99193043, 
+  "id": 331
+ }, 
+ {
+  "latitude": 40.71219906, 
+  "stationName": "Cherry St", 
+  "longitude": -73.97948148, 
+  "id": 332
+ }, 
+ {
+  "latitude": 40.74238787, 
+  "stationName": "W 20 St & 7 Ave", 
+  "longitude": -73.99726235, 
+  "id": 334
+ }, 
+ {
+  "latitude": 40.72903917, 
+  "stationName": "Washington Pl & Broadway", 
+  "longitude": -73.99404649, 
+  "id": 335
+ }, 
+ {
+  "latitude": 40.73047747, 
+  "stationName": "Sullivan St & Washington Sq", 
+  "longitude": -73.99906065, 
+  "id": 336
+ }, 
+ {
+  "latitude": 40.7037992, 
+  "stationName": "Old Slip & Front St", 
+  "longitude": -74.00838676, 
+  "id": 337
+ }, 
+ {
+  "latitude": 40.72580614, 
+  "stationName": "Avenue D & E 12 St", 
+  "longitude": -73.97422494, 
+  "id": 339
+ }, 
+ {
+  "latitude": 40.71269042, 
+  "stationName": "Madison St & Clinton St", 
+  "longitude": -73.98776323, 
+  "id": 340
+ }, 
+ {
+  "latitude": 40.71782143, 
+  "stationName": "Stanton St & Mangin St", 
+  "longitude": -73.97628939, 
+  "id": 341
+ }, 
+ {
+  "latitude": 40.71739973, 
+  "stationName": "Columbia St & Rivington St", 
+  "longitude": -73.98016555, 
+  "id": 342
+ }, 
+ {
+  "latitude": 40.69794, 
+  "stationName": "Clinton Ave & Flushing Ave", 
+  "longitude": -73.96986848, 
+  "id": 343
+ }, 
+ {
+  "latitude": 40.6851443, 
+  "stationName": "Monroe St & Bedford Ave", 
+  "longitude": -73.95380904, 
+  "id": 344
+ }, 
+ {
+  "latitude": 40.73649403, 
+  "stationName": "W 13 St & 6 Ave", 
+  "longitude": -73.99704374, 
+  "id": 345
+ }, 
+ {
+  "latitude": 40.73652889, 
+  "stationName": "Bank St & Hudson St", 
+  "longitude": -74.00618026, 
+  "id": 346
+ }, 
+ {
+  "latitude": 40.72873888, 
+  "stationName": "W Houston St & Hudson St", 
+  "longitude": -74.00748842, 
+  "id": 347
+ }, 
+ {
+  "latitude": 40.72490985, 
+  "stationName": "W Broadway & Spring St", 
+  "longitude": -74.00154702, 
+  "id": 348
+ }, 
+ {
+  "latitude": 40.71850211, 
+  "stationName": "Rivington St and Ridge St", 
+  "longitude": -73.98329859, 
+  "id": 349
+ }, 
+ {
+  "latitude": 40.71559509, 
+  "stationName": "Clinton St & Grand St", 
+  "longitude": -73.9870295, 
+  "id": 350
+ }, 
+ {
+  "latitude": 40.70530954, 
+  "stationName": "Front St & Maiden Ln", 
+  "longitude": -74.00612572, 
+  "id": 351
+ }, 
+ {
+  "latitude": 40.76340613, 
+  "stationName": "W 56 St & 6 Ave", 
+  "longitude": -73.97722479, 
+  "id": 352
+ }, 
+ {
+  "latitude": 40.68539567, 
+  "stationName": "S Portland Ave & Hanson Pl", 
+  "longitude": -73.97431458, 
+  "id": 353
+ }, 
+ {
+  "latitude": 40.69363137, 
+  "stationName": "Myrtle Ave & Emerson Pl", 
+  "longitude": -73.96223558, 
+  "id": 354
+ }, 
+ {
+  "latitude": 40.71602118, 
+  "stationName": "Bayard St & Baxter St", 
+  "longitude": -73.99974372, 
+  "id": 355
+ }, 
+ {
+  "latitude": 40.71622644, 
+  "stationName": "Bialystoker Pl & Delancey St", 
+  "longitude": -73.98261206, 
+  "id": 356
+ }, 
+ {
+  "latitude": 40.73261787, 
+  "stationName": "E 11 St & Broadway", 
+  "longitude": -73.99158043, 
+  "id": 357
+ }, 
+ {
+  "latitude": 40.73291553, 
+  "stationName": "Christopher St & Greenwich St", 
+  "longitude": -74.00711384, 
+  "id": 358
+ }, 
+ {
+  "latitude": 40.75510267, 
+  "stationName": "E 47 St & Park Av", 
+  "longitude": -73.97498696, 
+  "id": 359
+ }, 
+ {
+  "latitude": 40.70717936, 
+  "stationName": "William St & Pine St", 
+  "longitude": -74.00887308, 
+  "id": 360
+ }, 
+ {
+  "latitude": 40.71605866, 
+  "stationName": "Allen St & Hester St", 
+  "longitude": -73.99190759, 
+  "id": 361
+ }, 
+ {
+  "latitude": 40.75172632, 
+  "stationName": "Broadway & W 37 St", 
+  "longitude": -73.98753523, 
+  "id": 362
+ }, 
+ {
+  "latitude": 40.70834698, 
+  "stationName": "West Thames St", 
+  "longitude": -74.01713445, 
+  "id": 363
+ }, 
+ {
+  "latitude": 40.68900443, 
+  "stationName": "Lafayette Ave & Classon Ave", 
+  "longitude": -73.96023854, 
+  "id": 364
+ }, 
+ {
+  "latitude": 40.68223166, 
+  "stationName": "Fulton St & Grand Ave", 
+  "longitude": -73.9614583, 
+  "id": 365
+ }, 
+ {
+  "latitude": 40.693261, 
+  "stationName": "Clinton Ave & Myrtle Ave", 
+  "longitude": -73.968896, 
+  "id": 366
+ }, 
+ {
+  "latitude": 40.75828065, 
+  "stationName": "E 53 St and Lexington Ave", 
+  "longitude": -73.97069431, 
+  "id": 367
+ }, 
+ {
+  "latitude": 40.73038599, 
+  "stationName": "Carmine St & 6 Ave", 
+  "longitude": -74.00214988, 
+  "id": 368
+ }, 
+ {
+  "latitude": 40.73224119, 
+  "stationName": "Washington Pl & 6 Ave", 
+  "longitude": -74.00026394, 
+  "id": 369
+ }, 
+ {
+  "latitude": 40.694528, 
+  "stationName": "Franklin Ave & Myrtle Ave", 
+  "longitude": -73.958089, 
+  "id": 372
+ }, 
+ {
+  "latitude": 40.69331716, 
+  "stationName": "Willoughby Ave & Walworth St", 
+  "longitude": -73.95381995, 
+  "id": 373
+ }, 
+ {
+  "latitude": 40.72679454, 
+  "stationName": "Mercer St & Bleecker St", 
+  "longitude": -73.99695094, 
+  "id": 375
+ }, 
+ {
+  "latitude": 40.70862144, 
+  "stationName": "John St & William St", 
+  "longitude": -74.00722156, 
+  "id": 376
+ }, 
+ {
+  "latitude": 40.72243797, 
+  "stationName": "6 Ave & Canal St", 
+  "longitude": -74.00566443, 
+  "id": 377
+ }, 
+ {
+  "latitude": 40.73401143, 
+  "stationName": "W 4 St & 7 Ave S", 
+  "longitude": -74.00293877, 
+  "id": 380
+ }, 
+ {
+  "latitude": 40.73492695, 
+  "stationName": "University Pl & E 14 St", 
+  "longitude": -73.99200509, 
+  "id": 382
+ }, 
+ {
+  "latitude": 40.73625106, 
+  "stationName": "Greenwich Ave & 7 Ave", 
+  "longitude": -74.00083692, 
+  "id": 383
+ }, 
+ {
+  "latitude": 40.68317813, 
+  "stationName": "Fulton St & Waverly Ave", 
+  "longitude": -73.9659641, 
+  "id": 384
+ }, 
+ {
+  "latitude": 40.71494807, 
+  "stationName": "Centre St & Worth St", 
+  "longitude": -74.00234482, 
+  "id": 386
+ }, 
+ {
+  "latitude": 40.71273266, 
+  "stationName": "Centre St & Chambers St", 
+  "longitude": -74.0046073, 
+  "id": 387
+ }, 
+ {
+  "latitude": 40.71044554, 
+  "stationName": "Broadway & Berry St", 
+  "longitude": -73.96525063, 
+  "id": 389
+ }, 
+ {
+  "latitude": 40.69221589, 
+  "stationName": "Duffield St & Willoughby St", 
+  "longitude": -73.9842844, 
+  "id": 390
+ }, 
+ {
+  "latitude": 40.69760127, 
+  "stationName": "Clark St & Henry St", 
+  "longitude": -73.99344559, 
+  "id": 391
+ }, 
+ {
+  "latitude": 40.69507866, 
+  "stationName": "Jay St & Tech Pl", 
+  "longitude": -73.9872478, 
+  "id": 392
+ }, 
+ {
+  "latitude": 40.72299208, 
+  "stationName": "E 5 St & Avenue C", 
+  "longitude": -73.97995466, 
+  "id": 393
+ }, 
+ {
+  "latitude": 40.72521311, 
+  "stationName": "E 9 St & Avenue C", 
+  "longitude": -73.97768752, 
+  "id": 394
+ }, 
+ {
+  "latitude": 40.68807003, 
+  "stationName": "Bond St & Schermerhorn St", 
+  "longitude": -73.98410637, 
+  "id": 395
+ }, 
+ {
+  "latitude": 40.680342423, 
+  "stationName": "Lefferts Pl & Franklin Ave", 
+  "longitude": -73.9557689392, 
+  "id": 396
+ }, 
+ {
+  "latitude": 40.68415748, 
+  "stationName": "Fulton St & Clermont Ave", 
+  "longitude": -73.96922273, 
+  "id": 397
+ }, 
+ {
+  "latitude": 40.69165183, 
+  "stationName": "Atlantic Ave & Furman St", 
+  "longitude": -73.9999786, 
+  "id": 398
+ }, 
+ {
+  "latitude": 40.68851534, 
+  "stationName": "St James Pl & Lafayette Ave", 
+  "longitude": -73.9647628, 
+  "id": 399
+ }, 
+ {
+  "latitude": 40.71926081, 
+  "stationName": "Pitt St & Stanton St", 
+  "longitude": -73.98178024, 
+  "id": 400
+ }, 
+ {
+  "latitude": 40.72019576, 
+  "stationName": "Allen St & Rivington St", 
+  "longitude": -73.98997825, 
+  "id": 401
+ }, 
+ {
+  "latitude": 40.7403432, 
+  "stationName": "Broadway & E 22 St", 
+  "longitude": -73.98955109, 
+  "id": 402
+ }, 
+ {
+  "latitude": 40.72502876, 
+  "stationName": "E 2 St & 2 Ave", 
+  "longitude": -73.99069656, 
+  "id": 403
+ }, 
+ {
+  "latitude": 40.7405826, 
+  "stationName": "9 Ave & W 14 St", 
+  "longitude": -74.00550867, 
+  "id": 404
+ }, 
+ {
+  "latitude": 40.739323, 
+  "stationName": "Washington St & Gansevoort St", 
+  "longitude": -74.008119, 
+  "id": 405
+ }, 
+ {
+  "latitude": 40.69512845, 
+  "stationName": "Hicks St & Montague St", 
+  "longitude": -73.99595065, 
+  "id": 406
+ }, 
+ {
+  "latitude": 40.70010145, 
+  "stationName": "Cadman Plaza W & Middagh St", 
+  "longitude": -73.99104388, 
+  "id": 407
+ }, 
+ {
+  "latitude": 40.71076228, 
+  "stationName": "Market St & Cherry St", 
+  "longitude": -73.99400398, 
+  "id": 408
+ }, 
+ {
+  "latitude": 40.72066442, 
+  "stationName": "Suffolk St & Stanton St", 
+  "longitude": -73.98517977, 
+  "id": 410
+ }, 
+ {
+  "latitude": 40.72228087, 
+  "stationName": "E 6 St & Avenue D", 
+  "longitude": -73.97668709, 
+  "id": 411
+ }, 
+ {
+  "latitude": 40.7158155, 
+  "stationName": "Forsyth St & Canal St", 
+  "longitude": -73.99422366, 
+  "id": 412
+ }, 
+ {
+  "latitude": 40.70281858, 
+  "stationName": "Pearl St & Anchorage Pl", 
+  "longitude": -73.98765762, 
+  "id": 414
+ }, 
+ {
+  "latitude": 40.7047177, 
+  "stationName": "Pearl St & Hanover Square", 
+  "longitude": -74.00926027, 
+  "id": 415
+ }, 
+ {
+  "latitude": 40.68753406, 
+  "stationName": "Cumberland St & Lafayette Ave", 
+  "longitude": -73.97265183, 
+  "id": 416
+ }, 
+ {
+  "latitude": 40.71291224, 
+  "stationName": "Barclay St & Church St", 
+  "longitude": -74.01020234, 
+  "id": 417
+ }, 
+ {
+  "latitude": 40.70224, 
+  "stationName": "Front St & Gold St", 
+  "longitude": -73.982578, 
+  "id": 418
+ }, 
+ {
+  "latitude": 40.69580705, 
+  "stationName": "Carlton Ave & Park Ave", 
+  "longitude": -73.97355569, 
+  "id": 419
+ }, 
+ {
+  "latitude": 40.68764484, 
+  "stationName": "Clermont Ave & Lafayette Ave", 
+  "longitude": -73.96968902, 
+  "id": 420
+ }, 
+ {
+  "latitude": 40.69573398, 
+  "stationName": "Clermont Ave & Park Ave", 
+  "longitude": -73.97129668, 
+  "id": 421
+ }, 
+ {
+  "latitude": 40.770513, 
+  "stationName": "W 59 St & 10 Ave", 
+  "longitude": -73.988038, 
+  "id": 422
+ }, 
+ {
+  "latitude": 40.76584941, 
+  "stationName": "W 54 St & 9 Ave", 
+  "longitude": -73.98690506, 
+  "id": 423
+ }, 
+ {
+  "latitude": 40.71754834, 
+  "stationName": "West St & Chambers St", 
+  "longitude": -74.01322069, 
+  "id": 426
+ }, 
+ {
+  "latitude": 40.70251526, 
+  "stationName": "State St", 
+  "longitude": -74.01427023, 
+  "id": 427
+ }, 
+ {
+  "latitude": 40.72467721, 
+  "stationName": "E 3 St & 1 Ave", 
+  "longitude": -73.98783413, 
+  "id": 428
+ }, 
+ {
+  "latitude": 40.7014851, 
+  "stationName": "York St & Jay St", 
+  "longitude": -73.98656928, 
+  "id": 430
+ }, 
+ {
+  "latitude": 40.68864636, 
+  "stationName": "Hanover Pl & Livingston St", 
+  "longitude": -73.98263429, 
+  "id": 431
+ }, 
+ {
+  "latitude": 40.72621788, 
+  "stationName": "E 7 St & Avenue A", 
+  "longitude": -73.98379855, 
+  "id": 432
+ }, 
+ {
+  "latitude": 40.72955361, 
+  "stationName": "E 13 St & Avenue A", 
+  "longitude": -73.98057249, 
+  "id": 433
+ }, 
+ {
+  "latitude": 40.74317449, 
+  "stationName": "9 Ave & W 18 St", 
+  "longitude": -74.00366443, 
+  "id": 434
+ }, 
+ {
+  "latitude": 40.74173969, 
+  "stationName": "W 21 St & 6 Ave", 
+  "longitude": -73.99415556, 
+  "id": 435
+ }, 
+ {
+  "latitude": 40.68216564, 
+  "stationName": "Hancock St & Bedford Ave", 
+  "longitude": -73.95399026, 
+  "id": 436
+ }, 
+ {
+  "latitude": 40.6809833854, 
+  "stationName": "Macon St & Nostrand Ave", 
+  "longitude": -73.9500479759, 
+  "id": 437
+ }, 
+ {
+  "latitude": 40.72779126, 
+  "stationName": "St Marks Pl & 1 Ave", 
+  "longitude": -73.98564945, 
+  "id": 438
+ }, 
+ {
+  "latitude": 40.7262807, 
+  "stationName": "E 4 St & 2 Ave", 
+  "longitude": -73.98978041, 
+  "id": 439
+ }, 
+ {
+  "latitude": 40.75255434, 
+  "stationName": "E 45 St & 3 Ave", 
+  "longitude": -73.97282625, 
+  "id": 440
+ }, 
+ {
+  "latitude": 40.7560191, 
+  "stationName": "E 52 St & 2 Ave", 
+  "longitude": -73.96744628, 
+  "id": 441
+ }, 
+ {
+  "latitude": 40.7468416, 
+  "stationName": "W 27 St & 7 Ave", 
+  "longitude": -73.99445897, 
+  "id": 442
+ }, 
+ {
+  "latitude": 40.70853074, 
+  "stationName": "Bedford Ave & S 9 St", 
+  "longitude": -73.96408963, 
+  "id": 443
+ }, 
+ {
+  "latitude": 40.7423543, 
+  "stationName": "Broadway & W 24 St", 
+  "longitude": -73.98915076, 
+  "id": 444
+ }, 
+ {
+  "latitude": 40.72740794, 
+  "stationName": "E 10 St & Avenue A", 
+  "longitude": -73.98142006, 
+  "id": 445
+ }, 
+ {
+  "latitude": 40.74487634, 
+  "stationName": "W 24 St & 7 Ave", 
+  "longitude": -73.99529885, 
+  "id": 446
+ }, 
+ {
+  "latitude": 40.76370739, 
+  "stationName": "8  Ave & W 52 St", 
+  "longitude": -73.9851615, 
+  "id": 447
+ }, 
+ {
+  "latitude": 40.75660359, 
+  "stationName": "W 37 St & 10 Ave", 
+  "longitude": -73.9979009, 
+  "id": 448
+ }, 
+ {
+  "latitude": 40.76461837, 
+  "stationName": "52 St & 9 Ave", 
+  "longitude": -73.98789473, 
+  "id": 449
+ }, 
+ {
+  "latitude": 40.76227205, 
+  "stationName": "W 49 St & 8 Ave", 
+  "longitude": -73.98788205, 
+  "id": 450
+ }, 
+ {
+  "latitude": 40.74475148, 
+  "stationName": "W 22 St & 8 Ave", 
+  "longitude": -73.99915362, 
+  "id": 453
+ }, 
+ {
+  "latitude": 40.75455731, 
+  "stationName": "E 51 St & 1 Ave", 
+  "longitude": -73.96592976, 
+  "id": 454
+ }, 
+ {
+  "latitude": 40.75001986, 
+  "stationName": "1 Ave & E 44 St", 
+  "longitude": -73.96905301, 
+  "id": 455
+ }, 
+ {
+  "latitude": 40.7597108, 
+  "stationName": "E 53 St & Madison Ave", 
+  "longitude": -73.97402311, 
+  "id": 456
+ }, 
+ {
+  "latitude": 40.76695317, 
+  "stationName": "Broadway & W 57 St", 
+  "longitude": -73.98169333, 
+  "id": 457
+ }, 
+ {
+  "latitude": 40.74806176, 
+  "stationName": "W 22 St & 11 Ave", 
+  "longitude": -74.00723188, 
+  "id": 458
+ }, 
+ {
+  "latitude": 40.74522724, 
+  "stationName": "W 18 St & 11 Ave", 
+  "longitude": -74.00797904, 
+  "id": 459
+ }, 
+ {
+  "latitude": 40.71285887, 
+  "stationName": "S 4 St & Wythe Ave", 
+  "longitude": -73.96590294, 
+  "id": 460
+ }, 
+ {
+  "latitude": 40.73587678, 
+  "stationName": "E 20 St & 2 Ave", 
+  "longitude": -73.98205027, 
+  "id": 461
+ }, 
+ {
+  "latitude": 40.74691959, 
+  "stationName": "W 22 St & 10 Ave", 
+  "longitude": -74.00451887, 
+  "id": 462
+ }, 
+ {
+  "latitude": 40.74206539, 
+  "stationName": "9 Ave & W 16 St", 
+  "longitude": -74.00443172, 
+  "id": 463
+ }, 
+ {
+  "latitude": 40.75934501, 
+  "stationName": "E 56 St & 3 Ave", 
+  "longitude": -73.96759673, 
+  "id": 464
+ }, 
+ {
+  "latitude": 40.75513557, 
+  "stationName": "Broadway & W 41 St", 
+  "longitude": -73.98658032, 
+  "id": 465
+ }, 
+ {
+  "latitude": 40.74395411, 
+  "stationName": "W 25 St & 6 Ave", 
+  "longitude": -73.99144871, 
+  "id": 466
+ }, 
+ {
+  "latitude": 40.68312489, 
+  "stationName": "Dean St & 4 Ave", 
+  "longitude": -73.97895137, 
+  "id": 467
+ }, 
+ {
+  "latitude": 40.7652654, 
+  "stationName": "Broadway & W 55 St", 
+  "longitude": -73.98192338, 
+  "id": 468
+ }, 
+ {
+  "latitude": 40.76344058, 
+  "stationName": "Broadway & W 53 St", 
+  "longitude": -73.98268129, 
+  "id": 469
+ }, 
+ {
+  "latitude": 40.74345335, 
+  "stationName": "W 20 St & 8 Ave", 
+  "longitude": -74.00004031, 
+  "id": 470
+ }, 
+ {
+  "latitude": 40.71286844, 
+  "stationName": "Grand St & Havemeyer St", 
+  "longitude": -73.95698119, 
+  "id": 471
+ }, 
+ {
+  "latitude": 40.7457121, 
+  "stationName": "E 32 St & Park Av", 
+  "longitude": -73.98194829, 
+  "id": 472
+ }, 
+ {
+  "latitude": 40.72110063, 
+  "stationName": "Rivington St & Chrystie St", 
+  "longitude": -73.9919254, 
+  "id": 473
+ }, 
+ {
+  "latitude": 40.7451677, 
+  "stationName": "5 Ave & E 29 St", 
+  "longitude": -73.98683077, 
+  "id": 474
+ }, 
+ {
+  "latitude": 40.73524276, 
+  "stationName": "E 16 St & Irving Pl", 
+  "longitude": -73.98758561, 
+  "id": 475
+ }, 
+ {
+  "latitude": 40.74394314, 
+  "stationName": "E 31 St & 3 Ave", 
+  "longitude": -73.97966069, 
+  "id": 476
+ }, 
+ {
+  "latitude": 40.75640548, 
+  "stationName": "W 41 St & 8 Ave", 
+  "longitude": -73.9900262, 
+  "id": 477
+ }, 
+ {
+  "latitude": 40.76030096, 
+  "stationName": "11 Ave & W 41 St", 
+  "longitude": -73.99884222, 
+  "id": 478
+ }, 
+ {
+  "latitude": 40.76019252, 
+  "stationName": "9 Ave & W 45 St", 
+  "longitude": -73.9912551, 
+  "id": 479
+ }, 
+ {
+  "latitude": 40.76669671, 
+  "stationName": "W 53 St & 10 Ave", 
+  "longitude": -73.99061728, 
+  "id": 480
+ }, 
+ {
+  "latitude": 40.71260486, 
+  "stationName": "S 3 St & Bedford Ave", 
+  "longitude": -73.96264403, 
+  "id": 481
+ }, 
+ {
+  "latitude": 40.73935542, 
+  "stationName": "W 15 St & 7 Ave", 
+  "longitude": -73.99931783, 
+  "id": 482
+ }, 
+ {
+  "latitude": 40.73223272, 
+  "stationName": "E 12 St & 3 Ave", 
+  "longitude": -73.98889957, 
+  "id": 483
+ }, 
+ {
+  "latitude": 40.75500254, 
+  "stationName": "W 44 St & 5 Ave", 
+  "longitude": -73.98014437, 
+  "id": 484
+ }, 
+ {
+  "latitude": 40.75038009, 
+  "stationName": "W 37 St & 5 Ave", 
+  "longitude": -73.98338988, 
+  "id": 485
+ }, 
+ {
+  "latitude": 40.7462009, 
+  "stationName": "Broadway & W 29 St", 
+  "longitude": -73.98855723, 
+  "id": 486
+ }, 
+ {
+  "latitude": 40.73314259, 
+  "stationName": "E 20 St & FDR Drive", 
+  "longitude": -73.97573881, 
+  "id": 487
+ }, 
+ {
+  "latitude": 40.75645824, 
+  "stationName": "W 39 St & 9 Ave", 
+  "longitude": -73.99372222, 
+  "id": 488
+ }, 
+ {
+  "latitude": 40.75066386, 
+  "stationName": "10 Ave & W 28 St", 
+  "longitude": -74.00176802, 
+  "id": 489
+ }, 
+ {
+  "latitude": 40.751575, 
+  "stationName": "W 33 St & 8 Ave", 
+  "longitude": -73.99419, 
+  "id": 490
+ }, 
+ {
+  "latitude": 40.74096374, 
+  "stationName": "E 24 St & Park Ave S", 
+  "longitude": -73.98602213, 
+  "id": 491
+ }, 
+ {
+  "latitude": 40.75019995, 
+  "stationName": "W 33 St & 7 Ave", 
+  "longitude": -73.99093085, 
+  "id": 492
+ }, 
+ {
+  "latitude": 40.7568001, 
+  "stationName": "W 45 St & 6 Ave", 
+  "longitude": -73.98291153, 
+  "id": 493
+ }, 
+ {
+  "latitude": 40.74734825, 
+  "stationName": "W 26 St & 8 Ave", 
+  "longitude": -73.99723551, 
+  "id": 494
+ }, 
+ {
+  "latitude": 40.76269882, 
+  "stationName": "W 47 St & 10 Ave", 
+  "longitude": -73.99301222, 
+  "id": 495
+ }, 
+ {
+  "latitude": 40.73726186, 
+  "stationName": "E 16 St & 5 Ave", 
+  "longitude": -73.99238967, 
+  "id": 496
+ }, 
+ {
+  "latitude": 40.73704984, 
+  "stationName": "E 17 St & Broadway", 
+  "longitude": -73.99009296, 
+  "id": 497
+ }, 
+ {
+  "latitude": 40.74854862, 
+  "stationName": "Broadway & W 32 St", 
+  "longitude": -73.98808416, 
+  "id": 498
+ }, 
+ {
+  "latitude": 40.76228826, 
+  "stationName": "Broadway & W 51 St", 
+  "longitude": -73.98336183, 
+  "id": 500
+ }, 
+ {
+  "latitude": 40.744219, 
+  "stationName": "FDR Drive & E 35 St", 
+  "longitude": -73.97121214, 
+  "id": 501
+ }, 
+ {
+  "latitude": 40.73827428, 
+  "stationName": "E 20 St & Park Ave", 
+  "longitude": -73.98751968, 
+  "id": 503
+ }, 
+ {
+  "latitude": 40.73221853, 
+  "stationName": "1 Ave & E 15 St", 
+  "longitude": -73.98165557, 
+  "id": 504
+ }, 
+ {
+  "latitude": 40.74901271, 
+  "stationName": "6 Ave & W 33 St", 
+  "longitude": -73.98848395, 
+  "id": 505
+ }, 
+ {
+  "latitude": 40.73912601, 
+  "stationName": "E 25 St & 2 Ave", 
+  "longitude": -73.97973776, 
+  "id": 507
+ }, 
+ {
+  "latitude": 40.76341379, 
+  "stationName": "W 46 St & 11 Ave", 
+  "longitude": -73.99667444, 
+  "id": 508
+ }, 
+ {
+  "latitude": 40.7454973, 
+  "stationName": "9 Ave & W 22 St", 
+  "longitude": -74.00197139, 
+  "id": 509
+ }, 
+ {
+  "latitude": 40.7606597, 
+  "stationName": "W 51 St & 6 Ave", 
+  "longitude": -73.98042047, 
+  "id": 510
+ }, 
+ {
+  "latitude": 40.72938685, 
+  "stationName": "E 14 St & Avenue B", 
+  "longitude": -73.97772429, 
+  "id": 511
+ }, 
+ {
+  "latitude": 40.7500727, 
+  "stationName": "W 29 St & 9 Ave", 
+  "longitude": -73.99839279, 
+  "id": 512
+ }, 
+ {
+  "latitude": 40.768254, 
+  "stationName": "W 56 St & 10 Ave", 
+  "longitude": -73.988639, 
+  "id": 513
+ }, 
+ {
+  "latitude": 40.76087502, 
+  "stationName": "12 Ave & W 40 St", 
+  "longitude": -74.00277668, 
+  "id": 514
+ }, 
+ {
+  "latitude": 40.76009437, 
+  "stationName": "W 43 St & 10 Ave", 
+  "longitude": -73.99461843, 
+  "id": 515
+ }, 
+ {
+  "latitude": 40.75206862, 
+  "stationName": "E 47 St & 1 Ave", 
+  "longitude": -73.96784384, 
+  "id": 516
+ }, 
+ {
+  "latitude": 40.75149263, 
+  "stationName": "Pershing Square S", 
+  "longitude": -73.97798848, 
+  "id": 517
+ }, 
+ {
+  "latitude": 40.74780373, 
+  "stationName": "E 39 St & 2 Ave", 
+  "longitude": -73.9734419, 
+  "id": 518
+ }, 
+ {
+  "latitude": 40.75188406, 
+  "stationName": "Pershing Square N", 
+  "longitude": -73.97770164, 
+  "id": 519
+ }, 
+ {
+  "latitude": 40.75992262, 
+  "stationName": "W 52 St & 5 Ave", 
+  "longitude": -73.97648516, 
+  "id": 520
+ }, 
+ {
+  "latitude": 40.75044999, 
+  "stationName": "8 Ave & W 31 St", 
+  "longitude": -73.99481051, 
+  "id": 521
+ }, 
+ {
+  "latitude": 40.75714758, 
+  "stationName": "E 51 St & Lexington Ave", 
+  "longitude": -73.97207836, 
+  "id": 522
+ }, 
+ {
+  "latitude": 40.75466591, 
+  "stationName": "W 38 St & 8 Ave", 
+  "longitude": -73.99138152, 
+  "id": 523
+ }, 
+ {
+  "latitude": 40.75527307, 
+  "stationName": "W 43 St & 6 Ave", 
+  "longitude": -73.98316936, 
+  "id": 524
+ }, 
+ {
+  "latitude": 40.75594159, 
+  "stationName": "W 34 St & 11 Ave", 
+  "longitude": -74.0021163, 
+  "id": 525
+ }, 
+ {
+  "latitude": 40.74765947, 
+  "stationName": "E 33 St & 5 Ave", 
+  "longitude": -73.98490707, 
+  "id": 526
+ }, 
+ {
+  "latitude": 40.74315566, 
+  "stationName": "E 33 St & 1 Ave", 
+  "longitude": -73.97434726, 
+  "id": 527
+ }, 
+ {
+  "latitude": 40.74290902, 
+  "stationName": "2 Ave & E 30 St", 
+  "longitude": -73.97706058, 
+  "id": 528
+ }, 
+ {
+  "latitude": 40.7575699, 
+  "stationName": "W 42 St & 8 Ave", 
+  "longitude": -73.99098507, 
+  "id": 529
+ }, 
+ {
+  "latitude": 40.771522, 
+  "stationName": "11 Av & 59 St", 
+  "longitude": -73.990541, 
+  "id": 530
+ }, 
+ {
+  "latitude": 40.71893904, 
+  "stationName": "Forsyth St & Broome St", 
+  "longitude": -73.99266288, 
+  "id": 531
+ }, 
+ {
+  "latitude": 40.710451, 
+  "stationName": "S 5 Pl & S 4 St", 
+  "longitude": -73.960876, 
+  "id": 532
+ }, 
+ {
+  "latitude": 40.75299641, 
+  "stationName": "Broadway & W 39 St", 
+  "longitude": -73.98721619, 
+  "id": 533
+ }, 
+ {
+  "latitude": 40.70255065, 
+  "stationName": "Water - Whitehall Plaza", 
+  "longitude": -74.0127234, 
+  "id": 534
+ }, 
+ {
+  "latitude": 40.74144387, 
+  "stationName": "1 Ave & E 30 St", 
+  "longitude": -73.97536082, 
+  "id": 536
+ }, 
+ {
+  "latitude": 40.74025878, 
+  "stationName": "Lexington Ave & E 24 St", 
+  "longitude": -73.98409214, 
+  "id": 537
+ }, 
+ {
+  "latitude": 40.75795248, 
+  "stationName": "W 49 St & 5 Ave", 
+  "longitude": -73.97787642, 
+  "id": 538
+ }, 
+ {
+  "latitude": 40.71534825, 
+  "stationName": "Metropolitan Ave & Bedford Ave", 
+  "longitude": -73.96024116, 
+  "id": 539
+ }, 
+ {
+  "latitude": 40.74147286, 
+  "stationName": "Lexington Ave & E 26 St", 
+  "longitude": -73.98320928, 
+  "id": 540
+ }, 
+ {
+  "latitude": 40.736502, 
+  "stationName": "E 23 St & 1 Ave", 
+  "longitude": -73.97809472, 
+  "id": 545
+ }, 
+ {
+  "latitude": 40.74444921, 
+  "stationName": "E 30 St & Park Ave S", 
+  "longitude": -73.98303529, 
+  "id": 546
+ }, 
+ {
+  "latitude": 40.70255088, 
+  "stationName": "Front St & Washington St", 
+  "longitude": -73.98940236, 
+  "id": 2000
+ }, 
+ {
+  "latitude": 40.69892054, 
+  "stationName": "7th Ave & Farragut St", 
+  "longitude": -73.97332996, 
+  "id": 2001
+ }, 
+ {
+  "latitude": 40.716887, 
+  "stationName": "Wythe Ave & Metropolitan Ave", 
+  "longitude": -73.963198, 
+  "id": 2002
+ }, 
+ {
+  "latitude": 40.73416059, 
+  "stationName": "1 Ave & 18 St", 
+  "longitude": -73.98024289, 
+  "id": 2003
+ }, 
+ {
+  "latitude": 40.7255002, 
+  "stationName": "Spring St & 6 Ave", 
+  "longitude": -74.00445139, 
+  "id": 2004
+ }, 
+ {
+  "latitude": 40.70531194, 
+  "stationName": "Railroad Ave & Kay Ave", 
+  "longitude": -73.97100056, 
+  "id": 2005
+ }, 
+ {
+  "latitude": 40.76590936, 
+  "stationName": "Central Park S & 6 Ave", 
+  "longitude": -73.97634151, 
+  "id": 2006
+ }, 
+ {
+  "latitude": 40.69069495, 
+  "stationName": "Dekalb Ave & Skillman St", 
+  "longitude": -73.95643107, 
+  "id": 2007
+ }, 
+ {
+  "latitude": 40.70569254, 
+  "stationName": "Little West St & 1 Pl", 
+  "longitude": -74.01677685, 
+  "id": 2008
+ }, 
+ {
+  "latitude": 40.71117444, 
+  "stationName": "Catherine St & Monroe St", 
+  "longitude": -73.99682619, 
+  "id": 2009
+ }, 
+ {
+  "latitude": 40.72165481, 
+  "stationName": "Grand St & Greene St", 
+  "longitude": -74.00234737, 
+  "id": 2010
+ }, 
+ {
+  "latitude": 40.73409459, 
+  "stationName": "E 15 St & 3 Ave", 
+  "longitude": -73.98683104, 
+  "id": 2011
+ }, 
+ {
+  "latitude": 40.73945846, 
+  "stationName": "E 27 St & 1 Ave", 
+  "longitude": -73.97690655, 
+  "id": 2012
+ }, 
+ {
+  "latitude": 40.73915431, 
+  "stationName": "Greenwich Ave & 8 Ave", 
+  "longitude": -74.00271983, 
+  "id": 2013
+ }, 
+ {
+  "latitude": 40.74816819, 
+  "stationName": "Lexington Ave & E 37 St", 
+  "longitude": -73.97828553, 
+  "id": 2014
+ }, 
+ {
+  "latitude": 40.7490616, 
+  "stationName": "W 31 St & 7 Ave", 
+  "longitude": -73.99180214, 
+  "id": 2015
+ }, 
+ {
+  "latitude": 40.74971775, 
+  "stationName": "W 26 St & 10 Ave", 
+  "longitude": -74.00295035, 
+  "id": 2016
+ }, 
+ {
+  "latitude": 40.75022392, 
+  "stationName": "E 43 St & 2 Ave", 
+  "longitude": -73.97121414, 
+  "id": 2017
+ }, 
+ {
+  "latitude": 40.75206232, 
+  "stationName": "E 40 St & 5 Ave", 
+  "longitude": -73.9816324, 
+  "id": 2018
+ }, 
+ {
+  "latitude": 40.7546011, 
+  "stationName": "E 48 St & 3 Ave", 
+  "longitude": -73.97187886, 
+  "id": 2019
+ }, 
+ {
+  "latitude": 40.75797322, 
+  "stationName": "E 55 St & 2 Ave", 
+  "longitude": -73.96603308, 
+  "id": 2020
+ }, 
+ {
+  "latitude": 40.75929124, 
+  "stationName": "W 45 St & 8 Ave", 
+  "longitude": -73.98859651, 
+  "id": 2021
+ }, 
+ {
+  "latitude": 40.75849116, 
+  "stationName": "E 59 St & Sutton Pl", 
+  "longitude": -73.95920622, 
+  "id": 2022
+ }, 
+ {
+  "latitude": 40.75968085, 
+  "stationName": "E 55 St & Lexington Ave", 
+  "longitude": -73.97031366, 
+  "id": 2023
+ }, 
+ {
+  "latitude": 40.76162122, 
+  "stationName": "E 55 St & 5 Ave", 
+  "longitude": -73.97469473, 
+  "id": 2024
+ }, 
+ {
+  "latitude": 40.7643971, 
+  "stationName": "Grand Army Plaza & Central Park S", 
+  "longitude": -73.97371465, 
+  "id": 2025
+ }, 
+ {
+  "latitude": 40.76915505, 
+  "stationName": "Broadway & W 60 St", 
+  "longitude": -73.98191841, 
+  "id": 2026
+ }, 
+ {
+  "latitude": 40.71729, 
+  "stationName": "Elizabeth St & Hester St", 
+  "longitude": -73.996375, 
+  "id": 263
+ }, 
+ {
+  "latitude": 40.734232, 
+  "stationName": "E 15 St & 3 Ave", 
+  "longitude": -73.986923, 
+  "id": 297
+ }, 
+ {
+  "latitude": 40.749156, 
+  "stationName": "W 31 St & 7 Ave", 
+  "longitude": -73.9916, 
+  "id": 379
+ }, 
+ {
+  "latitude": 40.7390169121, 
+  "stationName": "Greenwich Ave & 8 Ave", 
+  "longitude": -74.0026376103, 
+  "id": 284
+ }, 
+ {
+  "latitude": 40.6906495, 
+  "stationName": "DeKalb Ave & Skillman St", 
+  "longitude": -73.95643107, 
+  "id": 409
+ }, 
+ {
+  "latitude": 40.748306, 
+  "stationName": "E 37 St & Lexington Ave", 
+  "longitude": -73.978045, 
+  "id": 160
+ }, 
+ {
+  "latitude": 40.75797322, 
+  "stationName": "E 55 St & 2 Ave", 
+  "longitude": -73.96603308, 
+  "id": 385
+ }, 
+ {
+  "latitude": 40.7643971, 
+  "stationName": "Grand Army Plaza & Central Park S", 
+  "longitude": -73.97371465, 
+  "id": 281
+ }, 
+ {
+  "latitude": 40.752062307, 
+  "stationName": "E 40 St & 5 Ave", 
+  "longitude": -73.9816324043, 
+  "id": 153
+ }, 
+ {
+  "latitude": 40.7546011026, 
+  "stationName": "E 48 St & 3 Ave", 
+  "longitude": -73.971878855, 
+  "id": 228
+ }, 
+ {
+  "latitude": 40.749717753, 
+  "stationName": "W 26 St & 10 Ave", 
+  "longitude": -74.002950346, 
+  "id": 388
+ }, 
+ {
+  "latitude": 40.76915505, 
+  "stationName": "Broadway & W 60 St", 
+  "longitude": -73.98191841, 
+  "id": 499
+ }, 
+ {
+  "latitude": 40.711512, 
+  "stationName": "South End and Liberty", 
+  "longitude": -74.015756, 
+  "id": 3002
+ }, 
+ {
+  "latitude": 40.714622, 
+  "stationName": "E Broadway & Grand St", 
+  "longitude": -73.983293, 
+  "id": 502
+ }
+]
