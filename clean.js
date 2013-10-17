@@ -1,3 +1,10 @@
+
+////// TO DO
+//  --------
+//  * Only pull out certain props from mongo
+//  * Find "ghost" stations and remove from data
+
+
 /// Cleaning stuff
 
 var fs = require('fs');
