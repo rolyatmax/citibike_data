@@ -1,0 +1,29 @@
+[
+	{
+		"day" : 6,
+		"hour" : 20,
+		"station_data" : [
+			{
+				"station_id" : 1,
+				"bikes" : 13,
+				"spaces" : 12,
+				"docks" : 25
+			},
+			{
+				"station_id" : 2,
+				"bikes" : 24,
+				"spaces" : 0,
+				"docks" : 24
+			},
+			{
+				"station_id" : 3,
+				"bikes" : 10,
+				"spaces" : 5,
+				"docks" : 15
+			}
+		]
+	},
+	{
+		...
+	}
+]
