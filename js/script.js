@@ -1,5 +1,15 @@
 // The Main JS File
 
+/////// TO DO
+/// =========
+///  * Initial page loading (use animation?)
+///  * Map/data fade in animation (the red circle fade in suddenly)
+///  * resizing window kills map
+///  * animate the circles
+///  * remove Brooklyn data
+
+
+
 (function(){
 
 	var width = 960;
@@ -67,7 +77,13 @@
 			map.restore();
 		};
 
+		map.resize = function() {
+			// map.clear();
+			// map.draw();
+		};
+
 		map.draw();
+
 	});
 
 
