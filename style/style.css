@@ -10,6 +10,7 @@ html, body {
 
 #container {
 	padding: 2px;
+	position: relative;
 }
 
 #container h1 {
@@ -45,7 +46,15 @@ html, body {
 
 canvas {
 	transition: opacity .5s linear;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.map {
 	opacity: 0;
+	z-index: 1;
 }
 
 .info_container {
