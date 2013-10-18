@@ -22,9 +22,12 @@ var viz;
 	/// -73.999401, 40.708080 : 398, 991 (Brooklyn Bridge & FDR)	
 
 	/// ROTATION APPROXIMATED
-	/// -73.981918, 40.768054 : 488, 51 (Columbus Circle)
-	/// -73.976441, 40.714838 : 525, 849 (Williamsburg Bridge & FDR)
-	/// -73.999401, 40.708080 : 265, 941 (Brooklyn Bridge & FDR)	
+	/// -73.981918, 40.768054 : 489, 37 (Columbus Circle)
+	/// -73.976441, 40.714838 : 548, 833 (Williamsburg Bridge & FDR)
+	/// -73.999401, 40.708080 : 291, 933 (Brooklyn Bridge & FDR)	
+
+
+	/// ON THE CANVAS - (0,0) is equivalent to (-74.02529787234042, 40.77040194092827)
 
 
 	var proj = d3.geo.albers()
@@ -51,7 +54,7 @@ var viz;
 
 	d3.json('shapefiles/manhattan_roads.json', function(err, manhattan) {
 
-		canvas.attr('style', 'opacity:1');
+		$('canvas').css({ opacity: 1 });
 
 		var path = d3.geo.path()
 			.projection( proj )
@@ -62,7 +65,7 @@ var viz;
 		};
 		map.draw = function() {
 			map.save();
-			map.rotate( 15 * Math.PI/180 ); // doing this to approximate the rotation of true North/South
+			map.rotate( 13.4 * Math.PI/180 ); // doing this to approximate the rotation of true North/South
 			path( topojson.feature(manhattan, manhattan.objects.manhattan_roads) );
 			map.strokeStyle = 'rgba(0,0,0,0.6)';
 			map.stroke();
@@ -78,23 +81,151 @@ var viz;
 		width: width,
 		container: document.getElementById('container'),
 		autopause: false,
+		autostart: false,
 		fullscreen: false
 	});
 
-	var location = {x: 0, y: 0};
+	var stations = [];
+	var bikeData;
+
+	viz.setup = function() {
+
+		var station_url = "data/stations.json";
+		var data_url = "data/sorted_data.json";
+
+		var station_promise = $.getJSON(station_url).then(function(data){
+			for (var i = 0, len = data.length; i < len; i++) {
+				stations.push( new Station(data[i]) );
+			}
+		});
+
+		var data_promise = $.getJSON(data_url).then(function(data){
+			bikeData = data;
+		});
+
+		$.when(station_promise, data_promise).then(function(){
+			viz.start();
+		});
+
+	};
+
+	var p = 0;
+	var lastSec = 0;
+	var curSlice;
+
+	var SPEED = 2.5;
 
 	viz.update = function() {
-		location = viz.mouse;
+		var sec = SPEED * (viz.millis / 1000) | 0;
+
+		if (sec > lastSec) {
+			lastSec = sec;
+			p += 1;
+			curSlice = bikeData[p];
+
+			if (!curSlice || !curSlice.docs || !curSlice.docs.length) {
+				p = 0;
+				return;
+			}
+
+			_.each(stations, function(station){
+				var data = _.findWhere(curSlice.docs, { station_id: station.id });
+				station.update( data );
+			});
+
+			updateTimeDisplay( curSlice );
+		}
+
 	};
 
 	viz.draw = function() {
 		viz.save();
-		viz.beginPath();
-		viz.arc(location.x, location.y, 50, 0, 2 * Math.PI, false);
-		viz.fillStyle = "rgba(255, 0, 0, 0.3)";
-		viz.fill();
+
+		_.each(stations, function(station) {
+			station.draw(viz);
+		});
+
 		viz.restore();
 	};
+
+
+
+	var Station = function( data ) {
+
+		var loc = convertCoords(data.latitude, data.longitude);
+
+		this.x = loc.x;
+		this.y = loc.y;
+		this.name = data.stationName;
+		this.id = data.id;
+		this.bikes = 1;
+
+	};
+
+	Station.prototype = {
+
+		update: function( data ) {
+			if (!data) return;
+			this.bikes = data.bikes;
+		},
+
+		draw: function(ctx) {
+			ctx.beginPath();
+			ctx.arc(this.x, this.y, this.bikes, 0, 2 * Math.PI, false);
+			ctx.fillStyle = "rgba(255, 0, 0, 0.3)";
+			ctx.fill();
+		}
+
+	};
+
+	var $timeslice = $('.timeslice');
+	var days = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday'.split(' ');
+
+	function updateTimeDisplay( data ) {
+
+		var day = days[data.day];
+		var hour = convertHour(data.hour);
+
+		var text = day + ' | ' + hour;
+
+		$timeslice.text( text );
+	}
+
+	function convertHour(hour) {
+		if (hour === 0) {
+			return '12AM';
+		}
+		if (hour < 12) {
+			return hour + 'AM';
+		}
+		if (hour === 12) {
+			return '12PM';
+		}
+		return (hour - 12) + 'PM';
+	}
+
+	function convertCoords(lat, long) {
+		// this is the latitude-to-1px ratio
+		var lat_norm = 0.00006647679324893937;
+
+		// this is the longitude-to-1px ratio
+		var long_norm = 0.00008936170212765288;
+
+		// the lat/long coords for (0,0) on the canvas
+		var zeroLat = 40.77040194092827;
+		var zeroLong = -74.02529787234042;
+
+		var dlat = zeroLat - lat;
+		var y = dlat / lat_norm;
+
+		var dlong = long - zeroLong;
+		var x = dlong / long_norm;
+
+		return {
+			x: x | 0,
+			y: y | 0
+		};
+	}
 
 
 })();

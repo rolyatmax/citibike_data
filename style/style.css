@@ -50,11 +50,27 @@ canvas {
 	top: 0;
 	left: 0;
 	z-index: 2;
+	opacity: 0;
+	/*display: none;*/
 }
 
 .map {
+	/*display: block;*/
 	opacity: 0;
 	z-index: 1;
+}
+
+.timeslice {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	height: 100px;
+	width: 300px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 30px;
+	line-height: 100px;
+	text-align: center;
 }
 
 .info_container {
