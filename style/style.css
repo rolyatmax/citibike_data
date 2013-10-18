@@ -13,7 +13,7 @@ html, body {
 }
 
 #container h1 {
-	transition: all .4s linear;
+	transition: all .4s ease;
 	opacity: 1;
 	color: rgba(0,0,0,0.8);
 	text-shadow: 1px 1px 11px rgba(0,0,0,0.1);
@@ -29,7 +29,7 @@ html, body {
 
 #container.inactive h1 {
 	opacity: 0;
-	right: -50px;
+	right: -100px;
 }
 
 #container small {
