@@ -3,9 +3,13 @@ html, body {
 	/*padding-top: 5px;*/
 	/*min-height: 100%;*/
     background: #fdfdfd;
-    /*overflow: hidden;*/
+    
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 #container {
@@ -61,6 +65,8 @@ canvas {
 }
 
 .timeslice {
+	transition: all .4s ease;
+	opacity: 1;
 	position: fixed;
 	bottom: 20px;
 	right: 30px;
@@ -73,6 +79,12 @@ canvas {
 	text-align: center;
 }
 
+#container.inactive .timeslice {
+	opacity: 0;
+	right: -100px;
+}
+
 .info_container {
 	line-height: 1.9em;
+	font-size: 1em;
 }

@@ -1,10 +1,5 @@
 // The Main JS File
 
-var map;
-var canvas;
-
-var viz;
-
 (function(){
 
 	var width = 960;
@@ -37,7 +32,7 @@ var viz;
 		.scale( 850000 )
 		.translate([-249500, 59150]);
 
-	map = Sketch.create({
+	var map = Sketch.create({
 		height: height,
 		width: width,
 		container: document.getElementById('container'),
@@ -47,7 +42,7 @@ var viz;
 		fullscreen: false
 	});
 
-	canvas = d3.select('canvas')
+	var canvas = d3.select('canvas')
 		.attr('width', width)
 		.attr('height', height)
 		.attr('class', 'map');
@@ -76,7 +71,7 @@ var viz;
 	});
 
 
-	viz = Sketch.create({
+	var viz = Sketch.create({
 		height: height,
 		width: width,
 		container: document.getElementById('container'),
@@ -227,5 +222,20 @@ var viz;
 		};
 	}
 
+
+	////// Events
+
+	$(document).on('keydown', function(e){
+		e.preventDefault();
+		if (e.which === 32) {
+			var action = viz.running ? 'stop' : 'start';
+			viz[action]();
+		}
+	});
+
+
+	/////// Exports
+
+	window.viz = viz;
 
 })();
