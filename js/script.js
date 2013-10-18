@@ -2,9 +2,7 @@
 
 /////// TO DO
 /// =========
-///  * Initial page loading (use animation?)
 ///  * Map/data fade in animation (the red circle fade in suddenly)
-///  * resizing window kills map
 ///  * animate the circles
 ///  * remove Brooklyn data
 
@@ -36,21 +34,12 @@
 
 
 	var proj = d3.geo.albers()
-		// .center([-74, 40])
-		// .rotate([0, 0])
-		// .parallels([50, 60])
 		.scale( 850000 )
 		.translate([-249500, 59150]);
 
-	var map = Sketch.create({
-		height: height,
-		width: width,
-		container: document.getElementById('container'),
-		autostart: false,
-		autoclear: false,
-		autopause: false,
-		fullscreen: false
-	});
+	var $map = $('<canvas>').attr('height', height).attr('width', width);
+	$('#container').append($map);
+	var map = $map[0].getContext('2d');
 
 	var canvas = d3.select('canvas')
 		.attr('width', width)
@@ -59,15 +48,16 @@
 
 	d3.json('shapefiles/manhattan_roads.json', function(err, manhattan) {
 
+		$('#curtain').css({ opacity: 0 }).on('transitionend', function() {
+			$('#curtain').remove();
+		});
+
 		$('canvas').css({ opacity: 1 });
 
 		var path = d3.geo.path()
 			.projection( proj )
 			.context( map );
 
-		map.click = function() {
-			console.log('mouse', map.mouse.x, map.mouse.y);
-		};
 		map.draw = function() {
 			map.save();
 			map.rotate( 13.4 * Math.PI/180 ); // doing this to approximate the rotation of true North/South
@@ -75,11 +65,6 @@
 			map.strokeStyle = 'rgba(0,0,0,0.6)';
 			map.stroke();
 			map.restore();
-		};
-
-		map.resize = function() {
-			// map.clear();
-			// map.draw();
 		};
 
 		map.draw();
@@ -238,14 +223,17 @@
 		};
 	}
 
+	function toggleAnimation() {
+		var action = viz.running ? 'stop' : 'start';
+		viz[action]();
+	}
 
 	////// Events
 
 	$(document).on('keydown', function(e){
-		e.preventDefault();
 		if (e.which === 32) {
-			var action = viz.running ? 'stop' : 'start';
-			viz[action]();
+			e.preventDefault();
+			toggleAnimation();
 		}
 	});
 

@@ -24,7 +24,7 @@ body {
 	text-shadow: 1px 1px 11px rgba(0,0,0,0.1);
 	position: fixed;
 	width: 300px;
-	top: 250px;
+	top: 190px;
 	right: 30px;
 	font-size: 50px;
 	line-height: 0.9em;
@@ -72,9 +72,9 @@ canvas {
 	right: 30px;
 	height: 100px;
 	width: 300px;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.9);
 	color: white;
-	font-size: 30px;
+	font-size: 26px;
 	line-height: 100px;
 	text-align: center;
 }
@@ -87,4 +87,25 @@ canvas {
 .info_container {
 	line-height: 1.9em;
 	font-size: 1em;
+	z-index: 10;
+}
+
+#container.inactive .info_btn {
+	left: 200px;
+}
+
+.content_wrapper.inactive {
+	left: 300px;
+}
+
+#curtain {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	transition: opacity .2s linear;
+	opacity: 1;
 }
