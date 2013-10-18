@@ -42,3 +42,12 @@ html, body {
 	margin-top: 10px;
 	padding: 2px 5px;
 }
+
+canvas {
+	transition: opacity .5s linear;
+	opacity: 0;
+}
+
+.info_container {
+	line-height: 1.9em;
+}
