@@ -237,6 +237,9 @@
 		}
 	});
 
+	$('body').on('click', '.info_btn', function(e){
+		toggleAnimation();
+	});
 
 	/////// Exports
 
