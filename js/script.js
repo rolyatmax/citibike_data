@@ -3,7 +3,6 @@
 /////// TO DO
 /// =========
 ///  * Map/data fade in animation (the red circle fade in suddenly)
-///  * animate the circles
 ///  * remove Brooklyn data
 
 
@@ -144,7 +143,7 @@
 		viz.restore();
 	};
 
-
+	var ANIM_SPEED = 0.04;
 
 	var Station = function( data ) {
 
@@ -155,7 +154,8 @@
 		this.name = data.stationName;
 		this.id = data.id;
 		this.bikes = 1;
-
+		this.animating = false;
+		this.r = this.bikes;
 	};
 
 	Station.prototype = {
@@ -166,8 +166,12 @@
 		},
 
 		draw: function(ctx) {
+
+			var delta = this.bikes - this.r;
+			this.r += delta * ANIM_SPEED;
+
 			ctx.beginPath();
-			ctx.arc(this.x, this.y, this.bikes, 0, 2 * Math.PI, false);
+			ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
 			ctx.fillStyle = "rgba(255, 0, 0, 0.3)";
 			ctx.fill();
 		}
