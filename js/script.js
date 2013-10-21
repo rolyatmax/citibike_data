@@ -30,7 +30,7 @@
 
 		d3.json('shapefiles/manhattan_roads.json', function(err, manhattan) {
 
-			$('#curtain').css({ opacity: 0 }).on('transitionend', function() {
+			$('#curtain').css({ opacity: 0 }).on('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function() {
 				$('#curtain').remove();
 			});
 
