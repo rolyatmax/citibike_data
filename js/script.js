@@ -30,9 +30,11 @@
 
 		d3.json('shapefiles/manhattan_roads.json', function(err, manhattan) {
 
-			$('#curtain').css({ opacity: 0 }).on('transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd', function() {
+			$('#curtain').css({ opacity: 0 });
+			// because I can't get ontransitionend to work well cross browser (thanks Safari)
+			setTimeout(function() {
 				$('#curtain').remove();
-			});
+			}, 1000);
 
 			$('canvas').css({ opacity: 1 });
 
